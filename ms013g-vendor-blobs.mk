@@ -47,7 +47,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so
+    $(LOCAL_PATH)/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/gps.msm8226.so:system/vendor/lib/hw/gps.msm8226.so
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
@@ -203,10 +204,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    $(LOCAL_PATH)/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so
-    $(LOCAL_PATH)/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so
-    $(LOCAL_PATH)/proprietary/lib/libloc_core.so:system/lib/libloc_core.so
-    $(LOCAL_PATH)/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so
+    $(LOCAL_PATH)/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
+    $(LOCAL_PATH)/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+    $(LOCAL_PATH)/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
+    $(LOCAL_PATH)/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     $(LOCAL_PATH)/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so
 
 # Graphics
@@ -317,8 +318,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/time_daemon:system/bin/time_daemon \
     $(LOCAL_PATH)/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so
-    $(LOCAL_PATH)/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    $(LOCAL_PATH)/proprietary/app/TimeService/TimeService.apk:system/app/TimeService/TimeService.apk 
 
 # Camera
 PRODUCT_COPY_FILES += \
@@ -383,4 +384,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libwfduibcsrcinterface.so:system/vendor/lib/libwfduibcsrcinterface.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so
+    $(LOCAL_PATH)/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/keystore.default.so:system/vendor/lib/hw/keystore.default.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/keystore.msm8226.so:system/vendor/lib/hw/keystore.msm8226.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/lights.msm8226.so:system/vendor/lib/hw/lights.msm8226.so
+
